@@ -1,8 +1,7 @@
+kaggle
 pandas
-zipfile
 streamlit
-sklearn.linear_model
+scikit-learn
 numpy
-matplotlib.pyplot
-plotly.express
-plotly.graph_objects
+matplotlib
+plotly
