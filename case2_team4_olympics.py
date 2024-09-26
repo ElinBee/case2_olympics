@@ -1,6 +1,5 @@
 import kaggle
 import pandas as pd
-from kaggle.api.kaggle_api_extended import KaggleApi
 import zipfile
 import streamlit as st
 from sklearn.linear_model import LinearRegression
@@ -9,6 +8,8 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
+'''
+from kaggle.api.kaggle_api_extended import KaggleApi
 
 api = KaggleApi()
 api.authenticate()
@@ -17,7 +18,7 @@ api.dataset_download_file("stefanydeoliveira/summer-olympics-medals-1896-2024",
 
 with zipfile.ZipFile('olympics_dataset.csv.zip','r') as zipref:
     zipref.extractall()
-
+'''
     
 df = pd.read_csv('olympics_dataset.csv')
 df2 = pd.read_csv('olympics_dataset.csv')
