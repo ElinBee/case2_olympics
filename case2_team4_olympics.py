@@ -1,4 +1,3 @@
-import kaggle
 import pandas as pd
 import zipfile
 import streamlit as st
@@ -9,6 +8,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 '''
+import kaggle
 from kaggle.api.kaggle_api_extended import KaggleApi
 
 api = KaggleApi()
