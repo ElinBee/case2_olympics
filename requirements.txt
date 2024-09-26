@@ -3,6 +3,7 @@ pandas
 zipfile
 streamlit
 sklearn.linear_model
+LinearRegression
 numpy
 matplotlib.pyplot
 plotly.express
