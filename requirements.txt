@@ -1,12 +1,8 @@
-kaggle
 pandas
 zipfile
 streamlit
 sklearn.linear_model
-LinearRegression
 numpy
 matplotlib.pyplot
 plotly.express
 plotly.graph_objects
-kaggle.api.kaggle_api_extended
-KaggleApi
